@@ -1,0 +1,59 @@
+.dropdown-menu {
+    margin: 8px auto;
+    margin-bottom: 0px;
+  }
+  
+  .dropdown-item-danger {
+    color: var(--bs-red);
+  }
+  .dropdown-item-danger:hover,
+  .dropdown-item-danger:focus {
+    color: #fff;
+    background-color: var(--bs-red);
+  }
+  .dropdown-item-danger.active {
+    background-color: var(--bs-red);
+  }
+  
+  .btn-hover-light {
+    background-color: var(--bs-white);
+  }
+  .btn-hover-light:hover,
+  .btn-hover-light:focus {
+    color: var(--bs-blue);
+    background-color: var(--bs-light);
+  }
+        
+  .cal-btn:hover,
+  .cal-btn:focus {
+    background-color: rgba(0, 0, 0, .05);
+  }
+  .cal-btn[disabled] {
+    border: 0;
+    opacity: .5;
+  }
+    
+  
+  .w-220px {
+    width: 220px;
+  }
+  
+  .w-280px {
+    width: 280px;
+  }
+  
+  .w-340px {
+    width: 340px;
+  }
+  
+  .w-600px {
+    width: 600px;
+  }
+  footer{
+  position: absolute;
+  margin-top: 10rem;
+  margin-bottom: 0;
+  width: 100%;
+  height: 6rem;  
+  }
+
