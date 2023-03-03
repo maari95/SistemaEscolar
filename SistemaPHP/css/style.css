@@ -1,0 +1,22 @@
+body{
+    background-color: 	#F8F8FF;
+}
+
+#section1{
+    background-color:	#F8F8FF;
+}
+#section2{
+    background-color:	#F5F5F5;
+}
+#section3{
+    background-color: #DCDCDC;
+}
+#editar{
+    background-color: white;
+    border-style:solid;
+    border-color: black;
+}
+#iniciotabela{
+    background-color: 	#696969;
+    color:white;
+}
