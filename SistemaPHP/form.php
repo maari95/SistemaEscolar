@@ -11,6 +11,8 @@ session_start();
 <title>Cadastro Alunos</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5956/5956912.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+
 <link rel="stylesheet" href="css/style.css">
 </head>
 <header></header>
@@ -22,7 +24,7 @@ include('./menus/menu_admin.php');
     <form action="registro.php" method="POST" id="form">
         <div class="jumbotron jumbotron-fluid">
             <div class="container" style="text-align:center;">
-              <h1 class="display-4">Cadastro de Alunos</h1>
+              <h1 class="display-4;  font-effect-shadow-multiple" style="font-family:'Sofia', sans-serif; font-size: 4rem">Cadastro de Alunos</h1>
               <p class="lead">Área de Cadastro</p>
             </div>
           </div>
