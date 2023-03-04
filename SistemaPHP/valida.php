@@ -35,7 +35,7 @@ if(isset($resultado)){
     }elseif($_SESSION['usuarioNiveisAcessoId'] == "3"){
         header("Location: cliente.php");
     }else{
-        $_SESSION['loginErro'] = "Erro - Entre em contato cesar@celke.com.br";
+        $_SESSION['loginErro'] = "Erro - Entre em contato marinagomes2@outlook.com";
         header("Location: index.php");
         $_SESSION['tentativa']++;
     }
