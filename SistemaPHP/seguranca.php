@@ -8,7 +8,7 @@
 
 		}else{
 
-			if($_SESSION['usuarioNiveisAcessoId'] != "1"){
+			if($_SESSION['usuarioNiveisAcessoId'] != "1" && $_SESSION['usuarioNiveisAcessoId'] != "2" ){
 				$_SESSION['loginErro'] = "Área restrita";
 				header("Location: index.php");
                 
