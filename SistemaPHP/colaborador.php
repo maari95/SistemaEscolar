@@ -26,7 +26,7 @@ seguranca_adm();
   </head>
   <body>
     <!-- navbar -->
-  <?php include ('./menus/menu_admin.php');?>
+  <?php include ('./menus/menu_colab.php');?>
 <!-- fim da navbar -->
 <div class="jumbotron jumbotron-fluid">
             <div class="container" style="text-align:center;">
@@ -47,29 +47,15 @@ seguranca_adm();
 
 </div>
 </div>
-  
-  </div>
-    <div class="col-sm-4">
-      <div class="card w-75 mb-3">
-  <div class="card-body">
-     <h5 class="card-title"><img src="https://cdn0.iconfinder.com/data/icons/business-finance-11/100/docs-09-512.png" width="30px" height="30px">Observações</h5>
-    <p class="p-0.5"></p>
-    <p class="card-text">Observações Gerais</p>
-    <br>
-    <a href="#" class="btn btn-outline-dark">Acessar</a>
-  </div>
+    
+
+ 
+
+
+
+<!-- DIV PARA RODAPÉ, NÃO MEXER   -->
 </div>
-</div> 
-
-     
-      </div>
-  </div>
 </div>
-
-
-
-
-
 <footer style="background-color: black; bottom: 0; position: absolute; width: 100%; height:10%;"><p style="color: white;text-align: center; padding: 30px">
  Rio de Janeiro - Brasil </p></footer>
     <!-- Optional JavaScript; choose one of the two! -->
