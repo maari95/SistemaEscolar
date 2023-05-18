@@ -1,4 +1,4 @@
-![image](https://github.com/maari95/SistemaEscolar/assets/106203918/9ffe7277-8d21-4e50-8c32-af9ea7e6c3cb)
-# Sistema Escolar Em PHP
+# Sistema Escolar Em PHP <img src="https://img.icons8.com/?size=512&id=XAg8ooTyo7Dl&format=png" width=40 height=40>
 
-*Cadastro, login e CRUD*
+-->*Cadastro, login e CRUD de matrículas*<br>
+-->*Em construção e ajustes*
