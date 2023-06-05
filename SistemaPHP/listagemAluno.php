@@ -2,12 +2,13 @@
 session_start();
 ob_start();
 
+
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "sistema";
-
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$port = 3307;
+$conn = mysqli_connect($servername, $username, $password, $dbname,$port);
 
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
@@ -74,6 +75,12 @@ include('./menus/menu_admin.php');
       <td><center>Nome Aluno</center></td>
       <td><center>Turma</center></td>
       <td><center>Mensalidade</center></td>
+      <td><center>Responsável</center></td>
+      <td><center>Telefone</center></td>
+      <td><center>Endereço</center></td>
+      <td><center>Cidade</center></td>
+      <td><center>CEP</center></td>
+      <td><center>Estado</center></td>
       <td><center>Ações</center></td>
       
   </tr>
@@ -83,7 +90,13 @@ include('./menus/menu_admin.php');
           <td><?php echo $row['idAluno']; ?></td>
           <td><?php echo $row['nomeAluno']; ?></td>
           <td><?php echo $row['turma'] ?></td>
-          <td><?php echo $row['mensalidade'] ?></td>
+          <td>R$ <?php echo $row['mensalidade'] ?></td>
+          <td><?php echo $row['nomeR'] ?></td>
+          <td><?php echo $row['telefone'] ?></td>
+          <td><?php echo $row['endereco'] ?></td>
+          <td><?php echo $row['cidade'] ?></td>
+          <td><?php echo $row['cep'] ?></td>
+          <td><?php echo $row['uf'] ?></td>
          
     <td><center><button id="editar" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#edit">Editar</button></a>
     
@@ -119,7 +132,7 @@ include('./menus/menu_admin.php');
           <div class="row">
             <div class="col-sm-10">
          <label>Id Aluno</label>
-         <input type="text" class="form-control form-control-sm" name="id"><br>
+         <input type="text" class="form-control form-control-sm"><br>
          <label>Nome Aluno</label>
         <input type="text" class="form-control form-control-sm"  name="nome"><br>
         <label>Turma</label>
