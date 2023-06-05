@@ -1,7 +1,7 @@
 <?php
 
 // Connect to database
-$db = mysqli_connect("localhost", "root", "", "sistema");
+$db = mysqli_connect("localhost", "root", "", "sistema", 3307);
 
 // Check connection
 if (mysqli_connect_errno()) {
