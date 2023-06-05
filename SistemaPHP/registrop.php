@@ -1,6 +1,6 @@
 <?php
 
-$conexao = mysqli_connect("localhost", "root", "", "sistema");
+$conexao = mysqli_connect("localhost", "root", "", "sistema" , 3307);
 
 // Verifica se houve um envio de formulário
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
