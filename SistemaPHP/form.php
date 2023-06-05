@@ -25,17 +25,18 @@ include('./menus/menu_admin.php');
         <div class="jumbotron jumbotron-fluid">
             <div class="container" style="text-align:center;">
               <h1 class="display-4;  font-effect-shadow-multiple" style="font-family:'Sofia', sans-serif; font-size: 4rem">Cadastro de Alunos</h1>
-              <p class="lead">Área de Cadastro</p>
             </div>
-          </div>
-        <div class="container" style="padding: 20px;">
+          </div>        
+        <div class="container col-sm-6" style="padding: 20px;">
     <div class="row">
-        <div class="col-sm-4">
+    <center><p class="lead">Área de Cadastro</p></center>
+    <p class="p-0.5"></p>
+        <div class="col-sm-6">
         <label for="nome">Nome Aluno</label>
         <input class="form-control form-control-sm" type="text" name="nome" placeholder="Nome Aluno">
         
     </div> 
-    <div class="col-sm-4">
+    <div class="col-sm-2">
         <label for="turma">Turma</label>
         <input class="form-control form-control-sm" type="text" name="turma" placeholder="Turma">
         
@@ -43,15 +44,50 @@ include('./menus/menu_admin.php');
 
      <div class="col-sm">
         <label for="mensalidade">Mensalidade</label>
-        <input class="form-control form-control-sm" type="text" name="mensalidade" placeholder="Mensalidade">
+        <input class="form-control form-control-sm" type="text" name="mensalidade" placeholder="R$">      
+</div>
+</div>
+<p class="p-0.75"></p>
+<div class="row">
+<div class="col-sm-4">
+<label for="nome">Nome Responsável</label>
+        <input class="form-control form-control-sm" type="text" name="nomeR" placeholder="Nome Responsável">      
+</div> 
+<div class="col-sm-4">
+        <label for="turma">Telefone Responsável</label>
+        <input class="form-control form-control-sm" type="text" name="telefone" placeholder="Telefone">     
+</div>
+<div class="col-sm">
+        <label for="mensalidade">Endereço</label>
+        <input class="form-control form-control-sm" type="text" name="endereco" placeholder="Endereço">
         
     </div>
     </div>
+
+<p class="p-0.75"></p>
+<div class="row">
+<div class="col-sm-4">
+<label for="nome">Cidade</label>
+        <input class="form-control form-control-sm" type="text" name="cidade" placeholder="Cidade">      
+</div> 
+<div class="col-sm-4">
+        <label for="turma">CEP</label>
+        <input class="form-control form-control-sm" type="text" name="cep" placeholder="CEP">     
+</div>
+<div class="col-sm">
+        <label for="mensalidade">UF</label>
+        <input class="form-control form-control-sm" type="text" name="uf" placeholder="UF">
+
+</div>
+</div>
+
+
+
 </div>
 <p class="p-1"></p>
 <center><button type="submit" id="submit" class="btn btn-dark"><img src="icons/send.png" width="25px" height="25px"> Enviar</button></center>
 
-
+</div>
 </div>
 </div>
 </div>
