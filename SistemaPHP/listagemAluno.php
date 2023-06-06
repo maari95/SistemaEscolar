@@ -117,7 +117,7 @@ include('./menus/menu_admin.php');
 ?>
 
     <!-- Modal de Edição  -->
-     <div class="modal" id="edit">
+    <div class="modal" id="edit">
     <div class="modal-dialog">
       <div class="modal-content">
   
@@ -129,20 +129,70 @@ include('./menus/menu_admin.php');
   
         <!-- Modal body -->
         <div class="modal-body"> 
-          <div class="row">
-            <div class="col-sm-10">
-         <label>Id Aluno</label>
-         <input type="text" class="form-control form-control-sm"><br>
+          <div class="container col-sm-20 text-start" style="font-size:medium;">
+        <div class="row">
+          <div class="col-sm-4">
+         <label>Id</label>
+         <input type="text" name="idAluno" class="form-control form-control-sm" readonly value="<?php echo $row['idAluno']?>">
+        </div>
+         <div class="col-sm">
          <label>Nome Aluno</label>
-        <input type="text" class="form-control form-control-sm"  name="nome"><br>
+        <input type="text" class="form-control form-control-sm"  name="nome">
+        </div>
+        </div>
+       
+        
+
+        <div class="row">
+        <div class="col-sm-6">
         <label>Turma</label>
-       <input type="text" class="form-control form-control-sm" name="turma"><br>
+       <input type="text" class="form-control form-control-sm" name="turma">
+        </div>
+        <div class="col-sm">
         <label>Mensalidade</label>
-       <input type="text" class="form-control form-control-sm" name="mensalidade"><br>
-       <p class="p-1"></p>
+       <input type="text" class="form-control form-control-sm" name="mensalidade">
+       </div>
+      </div>
+
+       <div class="row">
+        <div class="col-sm-6">
+        <label>Responsável</label>
+        <input type="text" class="form-control form-control-sm" name="nomeR">
+        </div>
+        <div class="col-sm-6">
+          <label>Telefone</label>
+          <input type="text" class="form-control form-control-sm" name="telefone">
+          </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-sm-6">
+              <label>Endereço</label>
+              <input type="text" class="form-control form-control-sm" name="endereco">  
+              </div>
+              <div class="col-sm-6">
+              <label>Cidade</label>
+              <input type="text" class="form-control form-control-sm" name="cidade">
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <label>CEP</label>
+                  <input type="text" class="form-control form-control-sm" name="cep">
+                  </div>
+                  <div class="col-sm-6">
+                  <label>UF</label>
+                <input type="text" class="form-control form-control-sm" name="uf"> 
+              </div>
+              </div>
+
+       <p class="p-0.75"></p>
      </div>
      </div>
-     </div>
+    
+    
         <!-- Modal footer -->
         <div class="modal-footer">
         <center><button type="submit" class="btn btn-dark">Alterar</button>
@@ -243,6 +293,7 @@ include('./menus/menu_admin.php');
         <div class="modal-body"> 
           <div class="row">
             <div class="col-sm-10">
+
          <label>Id Professor</label>
          <input type="text" class="form-control form-control-sm" name="id"><br>
          <label>Nome Professor</label>
