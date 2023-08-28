@@ -13,7 +13,7 @@ $sql = "insert into turma(turma) VALUES ('$turma')";
 mysqli_query($conexao, $sql);
 
 echo "Aluno Registrado com Sucesso!";
-header("Location: listagemAluno.php");
+header("Location: /listagemAluno.php");
  exit;
 
 }

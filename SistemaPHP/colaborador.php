@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include('conexao.php');
+include('./model/conexao.php');
 include('seguranca.php');
 seguranca_adm();
 

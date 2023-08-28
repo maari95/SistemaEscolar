@@ -22,7 +22,7 @@ session_start();
   ?>
     <p class="p-2"></p>
     <div class="container" style="padding: 20px;">
-    <form action="registrot.php" method="POST" id="formt">
+    <form action="./controller/registrot.php" method="POST" id="formt">
         
     <div class="jumbotron jumbotron-fluid">
             <div class="container" style="text-align:center;">
